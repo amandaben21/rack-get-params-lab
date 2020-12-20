@@ -49,7 +49,7 @@ class Application
     if @@items.include?(search_term)
       return "#{search_term} is one of our items"
     else
-      return "Couldn't find #{search_term}"
+      return "Couldn't find #{search_term}
     end
   end
 end
